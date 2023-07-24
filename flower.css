@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+}
+/* shared style */
+
+.btn{
+    height: 40px;
+    width: 75px;
+    border: 1px solid salmon;
+    border-radius: 10px;
+    background-color: rgb(203, 75, 103);
+    font-size: 20px;
+    color: #fafaff;
+    margin-left: 20px;
+}
+.btn a{
+    text-decoration: none;
+    color: #fafaff;
+}
+
+/* shared style */
+
+/* nav style start here */
+.nav-div{
+    background-color: #ca97acdc;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 10px 30px 10px;
+    align-items: center;
+    border-bottom: #E55473 solid;
+    position: sticky;
+}
+.nav-h2{
+    font-size: 50px;
+}
+.span-h2-nav{
+    color: #e83a71;
+    font-size: 70px;
+}
